@@ -1,0 +1,196 @@
+*{
+    background-color:   hsl(235deg 48% 14%);
+}
+
+
+.Profile{
+    width: 12.5rem;
+    background: hsl(246, 80%, 60%);
+    height: 18rem;
+    border-radius: 12px;
+    margin-top: 11rem;
+    margin-left: 14rem;
+    position: relative;
+    z-index: 1;
+}
+
+.Rob{
+    color: white;
+    background: hsl(246, 80%, 60%);
+    border-radius: 12px;
+}
+
+.Rob small{
+    margin-left: 18px;
+    background: hsl(246, 80%, 60%);
+    color: hsl(246, 44%, 75%);
+}
+
+
+.Rob strong{
+    margin-left: 18px;
+    background: hsl(246, 80%, 60%);
+    font-size: 30px;
+    font-family: system-ui;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.Rob p{
+    margin-left: 18px;
+    background: hsl(246, 80%, 60%);
+    font-size: 30px;
+    font-family: system-ui;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-top: 0.1rem;
+}
+
+.Rob img{
+    width: 4rem;
+    border: 3px solid white;
+    border-radius: 33px;
+    margin-left: 16px;
+    margin-top: 27px;
+}
+
+.Schedule{
+    width: 12.5rem;
+    background: hsl(235, 50%, 25%);
+    background-color: hsl(235, 46%, 20%);
+    height: 11rem;
+    border-radius: 12px;
+    margin-top: -2rem;
+    margin-left: 14rem;
+    position: relative;
+}
+
+.gap{
+    height: 20px;
+}
+
+.Schedule span{
+    margin-left: 18px;
+    background-color: hsl(235, 46%, 20%);
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-top: 1.7rem;
+    color: #6b6b99;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.Schedule span:hover{
+    color: white;  
+}
+
+.Compo{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Kaam{
+    display: flex;
+}
+
+.back-img{
+    width: 12.5rem;
+    background: hsl(15, 100%, 70%);
+    height: 5rem;
+    border-radius: 12px;
+    margin-top: 11rem;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.back-img img {
+    background:  hsl(15, 100%, 70%);
+    height: 67px;
+    margin-left: 7rem;
+    position: relative;
+}
+
+.act{
+    width: 12.5rem;
+    background: hsl(235, 50%, 25%);
+    background-color: hsl(235, 46%, 20%);
+    height: 10.5rem;
+    border-radius: 12px;
+    margin-top: -44px;
+    margin-left: 2rem;
+    position: relative;
+    z-index: 1;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.Title{
+    background-color: hsl(235, 46%, 20%);
+    color: white;
+    font-family: monospace;
+    font-size: 19px;
+    height: 20px;
+    width: 2rem;
+    text-align: center;
+    margin-left: 28px;
+    padding-top: 22px;
+}
+
+.ellipsis{
+    background-color: hsl(235, 46%, 20%);
+    margin-left: 9.8rem;
+    margin-top: -19px;
+}
+
+.Time{
+    background-color: hsl(235, 46%, 20%);
+    color: white;
+    font-family: system-ui;
+    font-size: 43px;
+    height: 20px;
+    width: 2rem;
+    text-align: center;
+    margin-left: 28px;
+    padding-top: 26px;
+    letter-spacing: 2px;
+}
+
+.LastWeak{
+    margin-left: 18px;
+    background-color: hsl(235, 46%, 20%);
+    color: hsl(246, 44%, 75%);
+    margin-top: 2.9rem;
+    color: #9a9ab3;
+    font-family: monospace;
+    font-size: 15px;
+    letter-spacing: -1px;
+}
+
+.lower{
+    margin-left: 4px;
+    margin-top: -152px;
+}
+
+
+.LowerKaam{
+    display: flex;
+}
+
+.ex-img img{
+    height: 51px;
+}
+
+.self-img img{
+    height: 37px;
+    margin-top: 0px;
+    width: 51px;
+    margin-left: 8.5rem;
+}
+
+.self-title{
+    margin-left: 8.5rem;
+}

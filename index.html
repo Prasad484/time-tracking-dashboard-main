@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="Compo">
+    <div class="ID">
+      <div class="Profile">
+        <div class="Rob">
+          <img src="images/image-jeremy.png" alt=""> <br> <br>
+          <small>Report for</small> <br>
+          <strong>Jeremy <br>
+            <p> Robson </p>
+          </strong>
+        </div>
+      </div>
+
+      <div class="Schedule">
+        <div class="gap"></div>
+        <span onclick="Daily()">Daily</span>   
+        <span onclick="Weekly()">Weekly</span>
+        <span onclick="Monthly()">Monthly</span>
+      </div>
+    </div>
+
+    <div class="AllKaam">
+
+      <div class="Kaam">
+        <div class="work-sec">
+          <div class="back-img">
+            <img src="images/icon-work.svg" alt="">
+          </div>
+          <div class="act">
+            <div class="Title"> Work</div>
+            <div class="ellipsis"><img src="images/icon-ellipsis.svg" alt=""> </div>
+            <div class="Time" id="WorkTime">32hrs</div>
+            <div class="LastWeak" id="WorkWeek">Last Weak - 36hrs</div>
+          </div>
+        </div>
+
+        <!-- PLAY SECTION -->
+
+        <div class="play-sec">
+          <div class="back-img" style="background-color: hsl(195, 74%, 62%);">
+            <img src="images/icon-play.svg" alt="" style="background-color: hsl(195, 74%, 62%);">
+          </div>
+          <div class="act">
+            <div class="Title"> Play</div>
+            <div class="ellipsis"><img src="images/icon-ellipsis.svg" alt=""> </div>
+            <div class="Time" id="PlayTime">10hrs</div>
+            <div class="LastWeak" id="PlayWeek">Last Weak - 8hrs</div>
+          </div>
+        </div>
+
+        <!-- STUDY SECTION -->
+
+        <div class="study-sec">
+          <div class="back-img" style="background-color: hsl(348, 100%, 68%);">
+            <img src="images/icon-study.svg" alt="" style="background-color: hsl(348, 100%, 68%);">
+          </div>
+          <div class="act">
+            <div class="Title"> Study</div>
+            <div class="ellipsis"><img src="images/icon-ellipsis.svg" alt=""> </div>
+            <div class="Time" id="StudyTime">4hrs</div>
+            <div class="LastWeak" id="StudyWeek">Last Weak - 7hrs</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="LowerKaam">
+        <!-- EX-Sec -->
+        <div class="Exercise-sec  lower">
+          <div class="back-img ex-img" style="background-color: hsl(145, 58%, 55%)">
+            <img src="images/icon-exercise.svg" alt="" style="background-color: hsl(145, 58%, 55%)">
+          </div>
+          <div class="act">
+            <div class="Title"> Exercise </div>
+            <div class="ellipsis"><img src="images/icon-ellipsis.svg" alt=""> </div>
+            <div class="Time" id="ExerciseTime">4hrs</div>
+            <div class="LastWeak" id="ExerciseWeek">Last Weak - 5hrs</div>
+          </div>
+        </div>
+        <!-- Social-sec -->
+        <div class="Social-sec  lower">
+          <div class="back-img" style="background-color: hsl(264, 64%, 52%);">
+            <img src="images/icon-social.svg" alt="" style="background-color: hsl(264, 64%, 52%);">
+          </div>
+          <div class="act">
+            <div class="Title"> Social</div>
+            <div class="ellipsis"><img src="images/icon-ellipsis.svg" alt=""> </div>
+            <div class="Time" id="SocialTime">5hrs</div>
+            <div class="LastWeak"id="SocialWeek">Last Weak - 10hrs</div>
+          </div>
+        </div>
+
+        <!-- Self-sec -->
+        <div class="Self-sec  lower">
+          <div class="back-img self-img" style="background-color: hsl(43, 84%, 65%)">
+            <img src="images/icon-self-care.svg" alt="" style="background-color: hsl(43, 84%, 65%)">
+          </div>
+          <div class="act">
+            <div class="Title"> Self Care</div>
+            <div class="ellipsis"><img src="images/icon-ellipsis.svg" alt=""> </div>
+            <div class="Time"  id="SelfTime">2hrs</div>
+            <div class="LastWeak" id="SelfWeek">Last Weak - 2hrs</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
